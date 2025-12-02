@@ -31,7 +31,9 @@ img {
     font-family: "Philosopher", sans-serif;
     font-weight: normal;
 }
-.page-title,.heading-large,.heading-medium {
+.page-title,
+.heading-large,
+.heading-medium {
     font-size: 3rem;
     text-align: center;
 }
@@ -262,7 +264,8 @@ img {
         order: 3;
     }
     .ad {
-        order: 1;
+       min-width: 10%;
+       order: -1;
     }
     .sidebar .heading-medium {
         line-height: 1;
